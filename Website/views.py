@@ -32,7 +32,7 @@ def VASCHome():
 
 @views.route('/TeacherPortal')
 def TeacherPortal():
-    return render_template("TeacherPortal.html")
+    return render_template("https://vr.uncw.edu/VASC/")
 
 @views.route('/VASCPubl')
 def VASCPubl():
