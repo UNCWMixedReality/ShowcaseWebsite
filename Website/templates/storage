@@ -1,0 +1,24 @@
+
+@views.route('/VASCHome')
+def VASCHome():
+    return render_template("homeVASC.html")
+
+@views.route('/TeacherPortal')
+def TeacherPortal():
+    return render_template("TeacherPortal.html")
+
+@views.route('/VASCPubl')
+def VASCPubl():
+    return render_template("PublVASC.html")
+
+@views.route('/VASCAbout')
+def VASCAbout():
+    return render_template("AboutVASC.html")
+
+@views.route('/VASCContributors')
+def VASCContributors():
+    return render_template("ContributorsVASC.html")
+
+@views.route('/VASCPhotoGallery')
+def VASCPhotoGallery():
+    return render_template("PhotoGalleryVASC.html")
