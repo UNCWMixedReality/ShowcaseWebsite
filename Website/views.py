@@ -2,6 +2,9 @@ from flask import Blueprint, render_template
 
 views = Blueprint('views', __name__)
 
+
+
+
 @views.route('/')
 def home():
     return render_template("home.html")
@@ -30,7 +33,7 @@ def REU():
 def VASCHome():
     return render_template("homeVASC.html")
 
-@views.route('/TeacherPortal')
+@views.route('#https://vr.uncw.edu/VASC/')
 def TeacherPortal():
     return render_template("https://vr.uncw.edu/VASC/")
 
