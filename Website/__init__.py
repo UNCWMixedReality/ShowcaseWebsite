@@ -4,6 +4,7 @@ def create_app():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = "Dr.Pence"
 
+
     from .views import views
     from .auth import auth
 
