@@ -1,5 +1,44 @@
 {%extends "VASC Project.html"%} {% block title %}About{% endblock %}
 
 {% block content %}
-<h1>Welcome to the VASC Project</h1>
+
+
+<html>
+<style>
+  h4 {
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2310b981' fill-opacity='0.5'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+  .name {
+    color:#006400;
+    font-family:Geneva;
+    text-align:center;
+    font-size:90%;
+    }
+  .name1 {
+    color:#006400;
+    font-family:Geneva;
+    text-align:center;
+    font-size:130%;
+    }
+</style>
+  <body>
+    <h1 style = "text-align:center;"><strong class = "name1" > Virtual Access to Stem Careers</strong> <br> <span class = 'name'> <strong>Sea Turtle Research Simulation</strong></span></h1>
+
+    <hr style="color:#006400;font-family:Geneva;text-align:right;font-size:400%;">
+
+
+
+    <p style="color:black;font-family:Geneva;text-align:left; font-size:100%; line-height: 2;"><strong>Virtual Reality (VR) is  defined  as a “...computer-generated simulation of a three-dimensional image or environment that can be interacted with in a seemingly real or physical way by a person using special electronic equipment, such as a helmet with a screen inside or gloves fitted with sensors.”.</strong> </p>
+    <img src="{{url_for('static',filename = 'pics/VASC poster.jpg')}}" style="margin-left: -25.5em; float:left ;width:400px;height:600px;">
+    <img src="{{url_for('static',filename = 'pics/turtle1.jpg')}}" style="margin-right: -20em; float:right ;width:300px;height:300px;">
+    <p style="color:black;font-family:Geneva;text-align:left; font-size:90%; "><strong>&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#8226;VR, is based on three basic principles:</strong></p>
+    <p style="color:black;font-family:Geneva;text-align:left; font-size:100%; line-height: 2;"><strong> &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160 1.) Immersion <br> &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160 2.) Interaction <br> &#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160 3.)User involvement with the environment and narrative.</strong></p>
+
+    <p style="color:black;font-family:Geneva;text-align:left; font-size:100%; line-height: 2;"><strong> VR offers a very high potential in education by making learning more motivating and engaging. Up to now, the use of immersive-VR in educational games has been limited due to high prices of the devices and their limited usability. Now new tools like the commercial "Oculus Rift", make it possible to access immersive-VR in lots of educational situations.</strong></p>
+    <p style="color:black;font-family:Geneva;text-align:left; font-size:100%; line-height: 2;"><strong>In order to captivate student interest, the VASC project will focus on the life cycle of sea turtles that are "Threatend" under the Endangered Species Act. Sea Turtles are the perfect model for builfing the VASC platform because of their lifespan, they travel great distances, and experience a wide range of ocean physical and chemical conditions as well as substatial ecological interactions with numerous marine plant and animal species. Thus, understaning the life cycle of a sea turtle exposes children to numerous STEM applications as well as the careers of those that investigate and protect sea turtle populations.</strong></p>
+    <p style="color:black;font-family:Geneva;text-align:left; font-size:100%; line-height: 2;"><strong>&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#8226;VASC will provide students a STEM occupational experience that is unique and as close to authentic as possible.</strong> </p>
+    <p style="color:black;font-family:Geneva;text-align:left; font-size:100%; line-height: 2;"><strong>&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#8226;VASC builds academic momentum at the intermediate level to prepare students for STEM opportunities in middle school</strong> </p>
+
+  </body>
+</html>
 {% endblock %}
