@@ -33,9 +33,9 @@ def REU():
 def VASCHome():
     return render_template("homeVASC.html")
 
-@views.route('#https://vr.uncw.edu/VASC/')
+@views.route('/TP') ##https://vr.uncw.edu/VASC/' ----- Teacher Portal Website
 def TeacherPortal():
-    return render_template("https://vr.uncw.edu/VASC/")
+    return render_template("TP.html")
 
 @views.route('/VASCPubl')
 def VASCPubl():
